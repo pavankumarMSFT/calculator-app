@@ -3,31 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple Calculator</title>
+  <title>Calculator by Pavan using GitHub Copilot</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="calculator">
+    <h2 class="calculator-title">Calculator by Pavan using GitHub Copilot</h2>
     <input type="text" id="result" readonly>
     <div class="buttons">
-      <button onclick="appendValue('7')">7</button>
-      <button onclick="appendValue('8')">8</button>
-      <button onclick="appendValue('9')">9</button>
-      <button onclick="clearResult()">C</button>
-      <button onclick="appendValue('4')">4</button>
-      <button onclick="appendValue('5')">5</button>
-      <button onclick="appendValue('6')">6</button>
-      <button onclick="appendValue('/')">/</button>
-      <button onclick="appendValue('1')">1</button>
-      <button onclick="appendValue('2')">2</button>
-      <button onclick="appendValue('3')">3</button>
-      <button onclick="appendValue('*')">*</button>
-      <button onclick="appendValue('0')">0</button>
-      <button onclick="appendValue('.')">.</button>
-      <button onclick="calculateResult()">=</button>
-      <button onclick="appendValue('-')">-</button>
-      <button onclick="appendValue('+')">+</button>
+      <button onclick="appendValue('7')" class="number">7</button>
+      <button onclick="appendValue('8')" class="number">8</button>
+      <button onclick="appendValue('9')" class="number">9</button>
+      <button onclick="clearResult()" class="function">C</button>
+      <button onclick="appendValue('4')" class="number">4</button>
+      <button onclick="appendValue('5')" class="number">5</button>
+      <button onclick="appendValue('6')" class="number">6</button>
+      <button onclick="appendValue('/')" class="operator">÷</button>
+      <button onclick="appendValue('1')" class="number">1</button>
+      <button onclick="appendValue('2')" class="number">2</button>
+      <button onclick="appendValue('3')" class="number">3</button>
+      <button onclick="appendValue('*')" class="operator">×</button>
+      <button onclick="appendValue('0')" class="number">0</button>
+      <button onclick="appendValue('.')" class="number">.</button>
+      <button onclick="calculateResult()" class="equals">=</button>
+      <button onclick="appendValue('-')" class="operator">-</button>
+      <button onclick="appendValue('+')" class="operator">+</button>
     </div>
+    <div class="footer">Created with <span class="heart">♥</span></div>
   </div>
   <script src="script.js"></script>
 </body>
