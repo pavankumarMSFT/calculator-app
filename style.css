@@ -44,6 +44,15 @@ body {
   font-weight: 500;
 }
 
+.keyboard-hint {
+  text-align: center;
+  margin-top: -15px;
+  margin-bottom: 15px;
+  font-size: 12px;
+  color: #666;
+  font-style: italic;
+}
+
 .buttons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
